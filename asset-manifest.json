@@ -1,8 +1,8 @@
 {
-  "main.js": "/react-exercise/static/js/main.eb0f3a5f.chunk.js",
-  "main.js.map": "/react-exercise/static/js/main.eb0f3a5f.chunk.js.map",
-  "static/js/1.94fe24dc.chunk.js": "/react-exercise/static/js/1.94fe24dc.chunk.js",
-  "static/js/1.94fe24dc.chunk.js.map": "/react-exercise/static/js/1.94fe24dc.chunk.js.map",
+  "main.js": "/react-exercise/static/js/main.c2429f2d.chunk.js",
+  "main.js.map": "/react-exercise/static/js/main.c2429f2d.chunk.js.map",
+  "static/js/1.eaa8a28d.chunk.js": "/react-exercise/static/js/1.eaa8a28d.chunk.js",
+  "static/js/1.eaa8a28d.chunk.js.map": "/react-exercise/static/js/1.eaa8a28d.chunk.js.map",
   "runtime~main.js": "/react-exercise/static/js/runtime~main.067355a1.js",
   "runtime~main.js.map": "/react-exercise/static/js/runtime~main.067355a1.js.map",
   "static/media/two_luggers.svg": "/react-exercise/static/media/two_luggers.9e318d5b.svg",
@@ -21,6 +21,6 @@
   "static/media/pickup.svg": "/react-exercise/static/media/pickup.49cebe89.svg",
   "static/media/van.svg": "/react-exercise/static/media/van.00e9ce6a.svg",
   "index.html": "/react-exercise/index.html",
-  "precache-manifest.56738024a0ae5096777187e242c445cb.js": "/react-exercise/precache-manifest.56738024a0ae5096777187e242c445cb.js",
+  "precache-manifest.956214a44646e9b8c8d598051ce78dcd.js": "/react-exercise/precache-manifest.956214a44646e9b8c8d598051ce78dcd.js",
   "service-worker.js": "/react-exercise/service-worker.js"
 }

@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/react-exercise/static/media/storage_move.d4a7ac28.svg"
   },
   {
-    "revision": "eb0f3a5fba273aa65e5c",
-    "url": "/react-exercise/static/js/main.eb0f3a5f.chunk.js"
+    "revision": "c2429f2d8eb633492873",
+    "url": "/react-exercise/static/js/main.c2429f2d.chunk.js"
   },
   {
     "revision": "067355a175a395c13cbf",
@@ -68,11 +68,11 @@ self.__precacheManifest = [
     "url": "/react-exercise/static/media/pickup.49cebe89.svg"
   },
   {
-    "revision": "94fe24dcd7ebc5fb9795",
-    "url": "/react-exercise/static/js/1.94fe24dc.chunk.js"
+    "revision": "eaa8a28dbf0d16a2d5ed",
+    "url": "/react-exercise/static/js/1.eaa8a28d.chunk.js"
   },
   {
-    "revision": "0e6115ca8de6b8d17b59d786a44de22e",
+    "revision": "be49e346727805862e6994c38edc4e60",
     "url": "/react-exercise/index.html"
   }
 ];

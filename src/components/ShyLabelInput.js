@@ -7,6 +7,16 @@ const FormField = styled.div`
   width: 100%;
 `;
 
+const Label = styled.div`
+  transition: transform 0.1s ease;
+  ${props =>
+    !!props.value &&
+    `
+    height: 0;
+    transform: scale(1, 0);
+    `}
+`;
+
 const Input = styled.input`
   background: none;
   border: none;
@@ -24,7 +34,7 @@ const Input = styled.input`
 
 export default ({ className, label, value, ...otherProps }) => (
   <FormField>
-    {!value && <label>{label}</label>}
+    <Label value={value}>{label}</Label>
     <Input value={value} {...otherProps} />
   </FormField>
 );

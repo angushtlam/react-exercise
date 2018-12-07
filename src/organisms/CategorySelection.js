@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import {
   GroupedSelection,
   GroupedSelectionRow,
@@ -13,7 +13,13 @@ import SmallMoveSvg from "../assets/small_move.svg";
 import StorageMoveSvg from "../assets/storage_move.svg";
 import StoreDeliverySvg from "../assets/store_delivery.svg";
 
+const transition = keyframes`
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+`;
+
 const StyledGroupedSelection = styled(GroupedSelection)`
+  animation: 0.3s ${transition} ease;
   margin: 0 auto;
 `;
 

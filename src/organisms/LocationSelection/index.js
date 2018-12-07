@@ -1,14 +1,20 @@
 import React from "react";
 import { Query } from "react-apollo";
 import gql from "graphql-tag";
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import LocationInput from "./LocationInput";
 import IdleCopy from "./IdleCopy";
 import FareEstimateItem from "./FareEstimateItem";
 import Button from "../../components/Button";
 import Card from "../../components/Card";
 
+const transition = keyframes`
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+`;
+
 const Content = styled.div`
+  animation: 0.3s ${transition} ease;
   max-width: 472px;
   margin: 0 auto;
 `;

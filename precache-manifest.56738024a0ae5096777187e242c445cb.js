@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/react-exercise/static/media/storage_move.d4a7ac28.svg"
   },
   {
-    "revision": "a2cc7dc79630f7daa360",
-    "url": "/react-exercise/static/js/main.a2cc7dc7.chunk.js"
+    "revision": "eb0f3a5fba273aa65e5c",
+    "url": "/react-exercise/static/js/main.eb0f3a5f.chunk.js"
   },
   {
     "revision": "067355a175a395c13cbf",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/react-exercise/static/js/1.94fe24dc.chunk.js"
   },
   {
-    "revision": "78da2ff80721cd414cb8171c9b9d8580",
+    "revision": "0e6115ca8de6b8d17b59d786a44de22e",
     "url": "/react-exercise/index.html"
   }
 ];

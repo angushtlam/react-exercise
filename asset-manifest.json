@@ -1,6 +1,6 @@
 {
-  "main.js": "/react-exercise/static/js/main.a2cc7dc7.chunk.js",
-  "main.js.map": "/react-exercise/static/js/main.a2cc7dc7.chunk.js.map",
+  "main.js": "/react-exercise/static/js/main.eb0f3a5f.chunk.js",
+  "main.js.map": "/react-exercise/static/js/main.eb0f3a5f.chunk.js.map",
   "static/js/1.94fe24dc.chunk.js": "/react-exercise/static/js/1.94fe24dc.chunk.js",
   "static/js/1.94fe24dc.chunk.js.map": "/react-exercise/static/js/1.94fe24dc.chunk.js.map",
   "runtime~main.js": "/react-exercise/static/js/runtime~main.067355a1.js",
@@ -21,6 +21,6 @@
   "static/media/pickup.svg": "/react-exercise/static/media/pickup.49cebe89.svg",
   "static/media/van.svg": "/react-exercise/static/media/van.00e9ce6a.svg",
   "index.html": "/react-exercise/index.html",
-  "precache-manifest.74c4d426f3da3e10ed4ea2cc85c0e435.js": "/react-exercise/precache-manifest.74c4d426f3da3e10ed4ea2cc85c0e435.js",
+  "precache-manifest.56738024a0ae5096777187e242c445cb.js": "/react-exercise/precache-manifest.56738024a0ae5096777187e242c445cb.js",
   "service-worker.js": "/react-exercise/service-worker.js"
 }

@@ -23,14 +23,14 @@ const VehicleImage = styled.img`
   width: auto;
 `;
 
-export default ({ crewSize, slug }) => {
-  return (
-    <Division>
-      <VehicleImage
-        src={slug === "xl" || slug === "van" ? VanSvg : PickupSvg}
-        big={slug === "xl"}
-      />
-      <LuggersImage src={crewSize === 1 ? OneLuggerSvg : TwoLuggersSvg} />
-    </Division>
-  );
-};
+const TransportGraphics = ({ className, crewSize, slug, ...otherProps }) => (
+  <Division className={className} {...otherProps}>
+    <VehicleImage
+      src={slug === "xl" || slug === "van" ? VanSvg : PickupSvg}
+      big={slug === "xl"}
+    />
+    <LuggersImage src={crewSize === 1 ? OneLuggerSvg : TwoLuggersSvg} />
+  </Division>
+);
+
+export default styled(TransportGraphics)``;

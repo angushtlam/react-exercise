@@ -9,7 +9,10 @@ const Header = styled.h3`
   font-size: 56px;
   margin-bottom: 68px;
   text-align: center;
-  white-space: nowrap;
+`;
+
+const Content = styled.div`
+  padding: 15px;
 `;
 
 const Footer = styled.div`
@@ -34,33 +37,35 @@ class App extends Component {
     return (
       <div>
         <Menu />
-        <Header>Get an estimate</Header>
-        {step === "Category Selection" && (
-          <CategorySelection
-            onSelection={category => () => {
-              this.setState({
-                category,
-                step: "Location Selection"
-              });
-            }}
-          />
-        )}
-        {step === "Location Selection" && (
-          <LocationSelection
-            category={category}
-            destination={destination}
-            origin={origin}
-            handleDestinationChange={event => {
-              this.setState({ destination: event.target.value });
-            }}
-            handleOriginChange={event => {
-              this.setState({ origin: event.target.value });
-            }}
-            onChangeCategory={() =>
-              this.setState({ category: "", step: "Category Selection" })
-            }
-          />
-        )}
+        <Content>
+          <Header>Get an estimate</Header>
+          {step === "Category Selection" && (
+            <CategorySelection
+              onSelection={category => () => {
+                this.setState({
+                  category,
+                  step: "Location Selection"
+                });
+              }}
+            />
+          )}
+          {step === "Location Selection" && (
+            <LocationSelection
+              category={category}
+              destination={destination}
+              origin={origin}
+              handleDestinationChange={event => {
+                this.setState({ destination: event.target.value });
+              }}
+              handleOriginChange={event => {
+                this.setState({ origin: event.target.value });
+              }}
+              onChangeCategory={() =>
+                this.setState({ category: "", step: "Category Selection" })
+              }
+            />
+          )}
+        </Content>
         <Footer />
       </div>
     );

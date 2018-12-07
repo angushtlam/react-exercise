@@ -8,6 +8,7 @@ const Division = styled.div`
   display: flex;
   font-weight: 600;
   margin-right: 5px;
+  padding: 5px;
   width: 100%;
 
   ${props =>

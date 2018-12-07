@@ -15,10 +15,18 @@ const Division = styled.div`
   :last-of-type {
     margin-bottom: 0;
   }
+
+  @media (max-width: 478px) {
+    ${TransportGraphics} {
+      display: none;
+    }
+  }
 `;
 
 const Content = styled.div`
-  width: 50%;
+  overflow-x: scroll;
+  white-space: nowrap;
+  width: 100%;
 `;
 
 const ProductText = styled.div`

@@ -12,6 +12,10 @@ const Header = styled.h3`
   white-space: nowrap;
 `;
 
+const Footer = styled.div`
+  height: 15px;
+`;
+
 class App extends Component {
   constructor() {
     super();
@@ -57,6 +61,7 @@ class App extends Component {
             }
           />
         )}
+        <Footer />
       </div>
     );
   }

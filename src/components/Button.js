@@ -19,5 +19,10 @@ export default styled.button`
     font-size: 15px;
     padding: 15px 20px;
     margin-left: 15px;
+
+    :hover {
+      background-color: #fff383;
+      transition: background-color 0.3s ease;
+    }
   `}
 `;
